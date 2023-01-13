@@ -2,7 +2,7 @@
 "version": "1.0",
 "homepage": "https://github.com/ytrl/scutlk",
 "url": "hhttps://raw.githubusercontent.com/ytrl/scutlk/1.0/scutl.ps1",
-"hash": "sha256:5FA07A7B4A47013C440DEDDD78C3F6A6A1DFAA9037E804CF23DCB86E46178CE9",
+"hash": "sha256:846925839ADC8EF35E4719CF1ECA3D4222F1C40C39BE5B0826DDE70ABC1C1BB7",
 "extract_dir": "scutl",
 "bin": [
   [
