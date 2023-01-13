@@ -1,5 +1,6 @@
-# scutl
-customizable and minimalist app launcher for students
+# scutlk
+customizable and minimalist app launcher for students created by x.gd/brryan
+modified by kai
 
 # installation
 
