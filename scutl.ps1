@@ -193,53 +193,46 @@ if ($run -eq "maintain"){
 
 if (!$run){
 	@"
-
-      .      \   ,
-   .          o     .                 .                   .            .
-     .         \                 ,             .                .
-               #\##\#      .                              .        .
-             #  #O##\###                .                        .
-   .        #*#  #\##\###                       .                     ,
-        .   ##*#  #\##\##               .                     .
-      .      ##*#  #o##\#         .                             ,       .
-          .     *#  #\#     .                    .             .          ,
-                      \          .                         .
-____^/\___^--____/\____O______________/\/\---/\___________---______________
-   /\^   ^  ^    ^                  ^^ ^  \ ^          ^       ---
-         --           -            --  -      -         ---  __       ^
-   --  __                      ___--  ^  ^                         --  __    
-scutlk 1.1 titan by x.gd/brryan                               (x.gd/kzwkzw)
-
-
+    ,/////  ///        (((///           ,###(((             /////           
+    *(((((  (((       .###(((,          ,&&&%%%,            (((((           
+    *(((((  *((       /###((((.         (%&&%%%%,           (((((           
+    .(((((   (((     (((((((((((.     ,(((%#%%%%%%*         (((((           
+     (((((*   ((( (((((,  ((((((((((#((((   %%%%%%%%%%%     (((((           
+     *(((((    (###(*       /((((#####((/     (%%%%%%%%%%%%.((((.           
+      ((((((,((((((((.        /((##(((((((((      .%%%%%%%&&&&(*            
+       ((((##((     ((((,   /((((   .(((((((((       .(&&&&&&&%%            
+        /####((        ((((#(((        .(((((###((((((((((&%%%%%%#          
+       *((##(((((        /(##((         /(#######(((/.      %%%%%%%         
+      /(((. ((((((/     ((((  (((,    (((((#((((((           %%%%%%%        
+     ,(((.    ((((((   /(((     ((( ((((((  ((((((           .%%%%%%        
+     ((((      ((((((  (((/      ((#((((    ((((((            %%%%%%        
+    .(((       .((((( ,(((        (##((.    ((((((            %%%%%%     
+                               x.gd/brryan
 "@ | Write-Output
     Write-Host "    all commands are called with 's <command>'. list of commands below:   " -ForegroundColor Green
     @"
-
     - edit/open the script 's edit'
     
         Tools  's <arg1> <arg2> <arg3>'
-
     - youtube downloader  (ytdl <mp3/mp4> <output name> <url>)
     - search for any file/folder  (ev <query>)
     - snip on-screen text to clipboard  (tg)
     - convert word/ppt/excel to pdf  (pdf <docx/pptx/xlsx> <filepath>)
     - scoop (install/uninstall/maintain) (maintain updates and cleans up all apps)
-
         Launchables  's <name> <query>'
     
     - Google  (g)
     - G-suite  (do,sh,sl,si)
-    - Notion (phy,eco,fre,leg,met,lit)
-    - Misc Prod (ep,edr)
-    - Misc Creativity (psd,veg,pp,wrd)
     - Compass  (co)
     - Youtube  (yt)
     - Twitter  (tw)
     - Pinterest  (pin)
+    - Amazon AU  (amz)
     - Desmos graph  (dm)
-    - Games (sm,csgo,dcd)
     - Github  (gh)
-
+        Google classrooms 's <name>'
+    - homepage (cl)
+    - edit the script to add/customise
         System 's <command>'
     
     - control panel  (ct)
@@ -251,5 +244,4 @@ scutlk 1.1 titan by x.gd/brryan                               (x.gd/kzwkzw)
     Start-Sleep 2147483
     exit
 }
-
 start-process $appstart
