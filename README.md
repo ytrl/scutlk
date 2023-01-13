@@ -1,6 +1,7 @@
 # scutlk
 customizable and minimalist app launcher for students created by x.gd/brryan
-modified by kai
+
+(modified for kai)
 
 # installation
 
