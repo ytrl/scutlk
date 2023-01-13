@@ -25,15 +25,15 @@ $Aliases = @{
 
 #    ! LINK/PATH                                                    ! ALIASES
 
-    <#  CLASSROOMS  #>       # add your google classrooms below
+    <#  PRODUCTIVITY  #>       # notion
 
     "https://classsroom.google.com"                                = @('cl'     ,'classroom')
-
-
-
-
-
-
+    "notion://www.notion.so/11phya-048083216ced42e79f29104593512136"= @('phy'     ,'physics')
+    "notion://www.notion.so/12ecob-d43847ad4b0147f38bb39e19dfe7f6a5"= @('eco'     ,'econ')
+    "notion://www.notion.so/11frec-fd34a8876f074f739ff99eeb8e85368a"= @('fre'     ,'francais')
+    "notion://www.notion.so/11lsd-77af953cda7841eb83a2796d4eb9e185" = @('leg'     ,'legal')
+    "notion://www.notion.so/11mmee-8039465670524c199a640388293331f6"= @('met'     ,'methods')
+    "notion://www.notion.so/11litf-d8430b4aafb64c0f83bed0e21f224897"= @('lit'     ,'literature')
 
     <#  BOOKMARKS / ESSENTIALS #>
 
@@ -41,7 +41,15 @@ $Aliases = @{
     "https://www.desmos.com/calculator"                            = @('dm'     ,'desmosGraph')
     "https://suzannecoryhs-vic.compass.education/"                 = @('co'     ,'compass')
     "https://github.com/search?q=$query"                           = @('gh'     ,'github')
-
+    "https://www.educationperfect.com/"                            = @('ep'     ,'educationPerfect')
+    "https://edrolo.com.au/account/courses/"                       = @('edr'    ,'edrolo')
+    
+    <# MORE PRODUCTIVITY #>
+    "C:\Program Files\Adobe\Adobe Photoshop 2023\Photoshop.exe"    = @('psd'     ,'photoshop')
+    "C:\Program Files\VEGAS\VEGAS Pro 16.0\vegas160.exe"           = @('veg'     ,'vegas')
+    "C:\Program Files\Microsoft Office\root\Office16\POWERPNT.EXE" = @('pp'      ,'powerpoint')
+    "C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"  = @('wrd'     ,'word')
+    
     <#  GSUITE  #>
  
     "https://docs.google.com/document/u/0/?tgif=d&q=$query"        = @('do'     ,'docs')
@@ -55,8 +63,10 @@ $Aliases = @{
     "https://twitter.com/search?q=$query"                          = @('tw'     ,'twitter')
     "https://www.youtube.com/results?search_query=$query"          = @('yt'     ,'youtube')
     "https://www.instagram.com"                                    = @('ig'     ,'instagram')
-    "https://www.amazon.com.au/s?k=$query"                         = @('amz'    ,'amazonAU')
-
+    "C:\Program Files (x86)\Steam\steam.exe"                       = @('sm'     ,'steam')
+    "steam://rungameid/730"                                        = @('csgo'   ,'csgo')
+    "discord://discord.com"                                        = @('dcd'    ,'discord')
+    
     <#  SYSTEM APPS  #>
 
     "taskmgr"                                                      = @('tm'     ,'taskManager')
@@ -184,24 +194,21 @@ if ($run -eq "maintain"){
 if (!$run){
 	@"
 
-
-
-    ,/////  ///        (((///           ,###(((             /////           
-    *(((((  (((       .###(((,          ,&&&%%%,            (((((           
-    *(((((  *((       /###((((.         (%&&%%%%,           (((((           
-    .(((((   (((     (((((((((((.     ,(((%#%%%%%%*         (((((           
-     (((((*   ((( (((((,  ((((((((((#((((   %%%%%%%%%%%     (((((           
-     *(((((    (###(*       /((((#####((/     (%%%%%%%%%%%%.((((.           
-      ((((((,((((((((.        /((##(((((((((      .%%%%%%%&&&&(*            
-       ((((##((     ((((,   /((((   .(((((((((       .(&&&&&&&%%            
-        /####((        ((((#(((        .(((((###((((((((((&%%%%%%#          
-       *((##(((((        /(##((         /(#######(((/.      %%%%%%%         
-      /(((. ((((((/     ((((  (((,    (((((#((((((           %%%%%%%        
-     ,(((.    ((((((   /(((     ((( ((((((  ((((((           .%%%%%%        
-     ((((      ((((((  (((/      ((#((((    ((((((            %%%%%%        
-    .(((       .((((( ,(((        (##((.    ((((((            %%%%%%     
-
-                               x.gd/brryan
+      .      \   ,
+   .          o     .                 .                   .            .
+     .         \                 ,             .                .
+               #\##\#      .                              .        .
+             #  #O##\###                .                        .
+   .        #*#  #\##\###                       .                     ,
+        .   ##*#  #\##\##               .                     .
+      .      ##*#  #o##\#         .                             ,       .
+          .     *#  #\#     .                    .             .          ,
+                      \          .                         .
+____^/\___^--____/\____O______________/\/\---/\___________---______________
+   /\^   ^  ^    ^                  ^^ ^  '\ ^          ^       ---
+         --           -            --  -      -         ---  __       ^
+   --  __                      ___--  ^  ^                         --  __    
+scutlk 1.1 titan by x.gd/brryan                               (x.gd/kzwkzw)
 
 
 "@ | Write-Output
@@ -222,18 +229,16 @@ if (!$run){
     
     - Google  (g)
     - G-suite  (do,sh,sl,si)
+    - Notion (phy,eco,fre,leg,met,lit)
+    - Misc Prod (ep,edr)
+    - Misc Creativity (psd,veg,pp,wrd)
     - Compass  (co)
     - Youtube  (yt)
     - Twitter  (tw)
     - Pinterest  (pin)
-    - Amazon AU  (amz)
     - Desmos graph  (dm)
+    - Games (sm,csgo,dcd)
     - Github  (gh)
-
-        Google classrooms 's <name>'
-
-    - homepage (cl)
-    - edit the script to add/customise
 
         System 's <command>'
     
